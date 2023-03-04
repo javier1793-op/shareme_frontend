@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import {FcGoogle} from "react-icons/fc"
 import chillhop from './../assets/chillhop.mp4'
 import logo from './../assets/logowhite.png'
+import { createOrGetUser } from '../Utils/getUser';
 
 const Login = () => {
 
@@ -28,7 +29,7 @@ const user=false
             ):
             <GoogleLogin
               onSuccess={(response)=>{
-                console.log(response)
+                createOrGetUser(response)
               }} 
               onError={()=>{
                 console.log('Error')
