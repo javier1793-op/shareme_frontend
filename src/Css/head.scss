@@ -1,0 +1,11 @@
+.container-head{
+    width: 100%;
+    min-height: 100%;
+    background: rgba(10,10,10, .65);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 8px 32px rgb(2, 4, 24);
+    border-bottom: 2px solid rgba(255,255,255, .09);
+    color: antiquewhite;
+    padding: 1rem 1rem;
+}

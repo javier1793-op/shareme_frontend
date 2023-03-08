@@ -1,9 +1,26 @@
-import React from 'react'
+import React ,{useEffect, useState, useRef} from 'react'
 import './../Css/home.scss'
+import {Route, Routes, Link} from 'react-router-dom'
+import Sidebar from '../Components/Sidebar'
+import UserProfile from '../Components/UserProfile'
+import Pins from '../Components/Pins'
+import Head from '../Components/Head'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <div className="container">
+        <div className="sidebar">
+        <Sidebar/>
+        </div>
+        <div className="head">
+          <Head/>
+        </div>
+        <div className="content">
+          <Pins/>
+        </div>
+      </div>
+    </>
   )
 }
 

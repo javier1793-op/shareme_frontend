@@ -1,0 +1,38 @@
+.content-sidebar{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(10,10,10, .65);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 8px 32px rgb(2, 4, 24);
+    border-right: 2px solid rgba(255,255,255, .09);
+    color: antiquewhite;
+}
+.content-sidebar .logotipo{
+    min-width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.logotipo img{
+    width: 60px;
+    height: 50px;
+}
+.logotipo h3{
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+ .categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+.categories .list{
+    padding: 0 1rem;
+}
