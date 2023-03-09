@@ -18,6 +18,10 @@ const Sidebar = () => {
         <h2>Discover Categories</h2>
         <div className="list">
           <Categories />
+          <Categories />
+          <Categories />
+          <Categories />
+          <Categories />
         </div>
       </div>
     </div>
