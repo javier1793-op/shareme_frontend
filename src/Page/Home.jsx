@@ -1,6 +1,5 @@
 import React ,{useEffect, useState, useRef} from 'react'
 import './../Css/home.scss'
-import {Route, Routes, Link} from 'react-router-dom'
 import Sidebar from '../Components/Sidebar'
 import UserProfile from '../Components/UserProfile'
 import Pins from '../Components/Pins'
